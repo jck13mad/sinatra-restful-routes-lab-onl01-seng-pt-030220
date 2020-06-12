@@ -1,6 +1,6 @@
 <h1>Saved Recipes</h1>
 
-<% @recipes.each do %>
+<% @recipes.each do |recipe|%>
   <ol>
     <li><a href="/recipes/<%=recipe.id%>"><%= recipe.name %></li>
   </ol>
